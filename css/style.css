@@ -520,7 +520,7 @@ ul { list-style: none; }
   padding: 0.7rem 1.1rem; border-radius: var(--radius-sm);
   background: none; border: none;
   font-family: 'DM Sans', sans-serif; font-size: 0.82rem; font-weight: 500;
-  color: var(--text-muted); cursor: none; transition: var(--transition);
+  color: var(--text-muted); transition: var(--transition);
   letter-spacing: 0.02em;
 }
 .tab-btn:hover { color: var(--text); background: rgba(255,255,255,0.04); }
