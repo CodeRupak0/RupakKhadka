@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rupak Khadka — Civil Engineer & PhD Researcher</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="noise-overlay"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══════════ NAVBAR ═══════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-initials">RK</span>
+      <span class="brand-name">Rupak Khadka</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home"      class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#about"     class="nav-link" data-section="about">About</a></li>
+      <li><a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a></li>
+      <li><a href="#contact"   class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-line"></span>
+        <span>Civil Engineer &amp; PhD Researcher</span>
+        <span class="eyebrow-line"></span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="title-line line-1">Rupak</span>
+        <span class="title-line line-2 italic-accent">Khadka</span>
+      </h1>
+
+      <p class="hero-subtitle">Traffic Engineering · AI in Transportation · Crash Analytics</p>
+      <p class="hero-tagline">
+        PhD Researcher at <em>Texas Tech University</em> — bridging <em>intelligent transportation systems</em> with data-driven engineering for safer, smarter roads.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn btn-primary"><span>Explore Work</span><i class="fa-solid fa-arrow-down"></i></a>
+        <a href="#about"     class="btn btn-ghost"><span>About Me</span></a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">1</span>
+          <span class="stat-label">Publication</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">3.96</span>
+          <span class="stat-label">GPA / 4.00</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">3×</span>
+          <span class="stat-label">Semester Topper</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">PE</span>
+          <span class="stat-label">Licensed Engineer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════ ABOUT ═══════════ -->
+  <section class="about-section section" id="about">
+    <div class="section-label">
+      <span class="label-number">01</span>
+      <span class="label-text">About</span>
+    </div>
+
+    <div class="about-hero-card">
+      <div class="about-photo-wrap">
+        <div class="photo-frame">
+          <!-- Replace with your actual photo -->
+          <img src="https://placehold.co/400x480/1a1f35/c9a84c?text=Rupak+Khadka" alt="Rupak Khadka" class="about-photo" />
+          <div class="photo-decoration"></div>
+        </div>
+        <div class="photo-badge">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>PhD Researcher · TTU</span>
+        </div>
+      </div>
+
+      <div class="about-intro">
+        <p class="greeting-tag">Hi, I am</p>
+        <h2 class="about-name">Rupak Khadka</h2>
+        <p class="about-title">Civil Engineer &amp; PhD Researcher in <em>Transportation Systems</em></p>
+        <p class="about-subtitle">TransTech Lab · Texas Tech University · Lubbock, TX, USA</p>
+
+        <p class="about-tagline">
+          Civil Engineer and PhD researcher specializing in Traffic Engineering, AI applications in transportation, and crash data analytics — with a proven track record in signal design, optimization, interactive dashboard development, and cross-functional team leadership.
+        </p>
+
+        <div class="social-links">
+          <a href="https://linkedin.com/in/rupak-khadka" class="social-icon linkedin" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon github"    title="GitHub"         target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="social-icon scholar"   title="Google Scholar" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+          <a href="#" class="social-icon facebook"  title="Facebook"       target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-icon instagram" title="Instagram"      target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icon x-twitter" title="X / Twitter"    target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <div class="cv-actions">
+          <a href="#" class="btn btn-primary btn-sm" target="_blank"><i class="fa-solid fa-eye"></i> View CV</a>
+          <a href="#" class="btn btn-ghost btn-sm"   download><i class="fa-solid fa-download"></i> Download CV</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card card-glow">
+        <div class="about-card-icon"><i class="fa-solid fa-user-astronaut"></i></div>
+        <h3>Who I Am</h3>
+        <p>I am a Civil Engineer and PhD researcher at Texas Tech University's TransTech Lab with a deep passion for traffic engineering, intelligent transportation systems, and AI-driven crash analytics. Originally from Nepal, I bring a global perspective to complex transportation challenges.</p>
+        <p>Beyond research, I am an active leader — having coordinated inter-college engineering competitions, volunteered at national civil engineering exhibitions, and served in community service through the Rotaract Club of Dillibazar.</p>
+      </div>
+
+      <div class="about-card card-glow">
+        <div class="about-card-icon"><i class="fa-solid fa-flask"></i></div>
+        <h3>What I Do</h3>
+        <ul class="what-i-do-list">
+          <li><i class="fa-solid fa-chevron-right"></i> Develop interactive crash data analysis dashboards for TxDOT districts using ArcGIS Pro &amp; Online</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Execute signal retiming &amp; optimization designs using Synchro for Texas municipalities</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Apply Machine Learning &amp; AI algorithms for traffic engineering and hotspot detection</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Clean and analyze large-scale LiDAR datasets using Python</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Lead TxDOT-funded research initiatives and write grant proposals</li>
+        </ul>
+      </div>
+
+      <div class="about-card card-glow">
+        <div class="about-card-icon"><i class="fa-solid fa-book-open"></i></div>
+        <h3>Education Snapshot</h3>
+        <div class="edu-mini-timeline">
+          <div class="edu-mini-item">
+            <span class="edu-mini-degree">B.E. Civil Engineering</span>
+            <span class="edu-mini-school">Tribhuvan University, IOE · 2018–2023 · 74.83%</span>
+          </div>
+          <div class="edu-mini-item current">
+            <span class="edu-mini-degree">MS &amp; PhD — Transportation Systems</span>
+            <span class="edu-mini-school">Texas Tech University · 2025–2030</span>
+            <span class="badge-current">Current · GPA 3.96/4.00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-card card-glow">
+        <div class="about-card-icon"><i class="fa-solid fa-rocket"></i></div>
+        <h3>Future Interests</h3>
+        <p>I am deeply interested in advancing AI-driven transportation safety research, connected and autonomous vehicle (CAV) systems, and smart city infrastructure planning. I aspire to contribute to sustainable transportation policies and cutting-edge ITS technologies that improve road safety and mobility globally.</p>
+        <div class="interest-tags">
+          <span>AI in Transportation</span>
+          <span>ITS</span>
+          <span>CAV Systems</span>
+          <span>Crash Analytics</span>
+          <span>Smart Cities</span>
+          <span>LiDAR</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PORTFOLIO ═══════════ -->
+  <section class="portfolio-section section" id="portfolio">
+    <div class="section-label">
+      <span class="label-number">02</span>
+      <span class="label-text">Portfolio</span>
+    </div>
+
+    <div class="section-header">
+      <h2 class="section-title">My Work &amp; <em>Research</em></h2>
+      <p class="section-desc">A curated collection of publications, projects, experiences, skills, and achievements.</p>
+    </div>
+
+    <div class="portfolio-tabs">
+      <button class="tab-btn active" data-tab="publications"><i class="fa-solid fa-file-lines"></i> <span>Publications</span></button>
+      <button class="tab-btn" data-tab="projects"><i class="fa-solid fa-diagram-project"></i> <span>Projects</span></button>
+      <button class="tab-btn" data-tab="research-exp"><i class="fa-solid fa-microscope"></i> <span>Research Exp.</span></button>
+      <button class="tab-btn" data-tab="prof-exp"><i class="fa-solid fa-briefcase"></i> <span>Professional Exp.</span></button>
+      <button class="tab-btn" data-tab="skills"><i class="fa-solid fa-code"></i> <span>Skills</span></button>
+      <button class="tab-btn" data-tab="education"><i class="fa-solid fa-graduation-cap"></i> <span>Education</span></button>
+      <button class="tab-btn" data-tab="certifications"><i class="fa-solid fa-certificate"></i> <span>Licenses &amp; Certs</span></button>
+    </div>
+
+    <!-- ── PUBLICATIONS ── -->
+    <div class="tab-content active" id="tab-publications">
+      <div class="publications-list">
+        <div class="pub-card reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2023</span>
+            <span class="pub-type journal">Journal</span>
+          </div>
+          <h3 class="pub-title">Signal Optimization to Improve Traffic Conditions: A Case Study of Satdobato and Gwarko Intersections, Kathmandu Valley</h3>
+          <p class="pub-authors"><strong>Rupak Khadka</strong> et al.</p>
+          <p class="pub-venue">Nepal Journal of Civil Engineering · Pulchowk Campus, IOE, Tribhuvan University</p>
+          <p class="pub-abstract">
+            This study investigates signal optimization strategies at two major congested intersections — Satdobato and Gwarko — in the Kathmandu Valley. Using SIDRA Intersection software, comprehensive traffic counts and demand analysis were conducted to design improved signal phasing and timing plans. The optimized signals significantly reduced average delay, improved intersection capacity, and mitigated congestion in one of Nepal's most traffic-dense urban corridors, offering a replicable framework for signal redesign in developing-country urban contexts.
+          </p>
+          <div class="pub-links">
+            <a href="https://civil.pcampus.edu.np/journal/index.php/njce/article/view/4.1-4/FullText-4.1-4" class="pub-link" target="_blank"><i class="fa-solid fa-link"></i> Full Text</a>
+            <a href="https://civil.pcampus.edu.np/journal/index.php/njce/article/view/4.1-4/FullText-4.1-4" class="pub-link" target="_blank"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="awards-section reveal">
+        <h3 class="awards-heading"><i class="fa-solid fa-trophy"></i> Awards &amp; Achievements</h3>
+        <div class="awards-grid">
+          <div class="award-card">
+            <div class="award-icon"><i class="fa-solid fa-medal"></i></div>
+            <div>
+              <h4>Merit-Based Four-Year Scholarship</h4>
+              <p>Awarded by IOE, Pulchowk Campus for securing <strong>279th rank out of 16,000+</strong> in the national entrance examination.</p>
+            </div>
+          </div>
+          <div class="award-card">
+            <div class="award-icon"><i class="fa-solid fa-star"></i></div>
+            <div>
+              <h4>1st Semester — Both Category Topper</h4>
+              <p>Outstanding score of <strong>89.78%</strong> · Awarded NRS 18,000 by IOE, Pulchowk Campus</p>
+            </div>
+          </div>
+          <div class="award-card">
+            <div class="award-icon"><i class="fa-solid fa-star"></i></div>
+            <div>
+              <h4>2nd Semester — Full Fee Category Topper</h4>
+              <p>Outstanding score of <strong>84.57%</strong> · Awarded NRS 18,000 by IOE, Pulchowk Campus</p>
+            </div>
+          </div>
+          <div class="award-card">
+            <div class="award-icon"><i class="fa-solid fa-star"></i></div>
+            <div>
+              <h4>4th Semester — Full Fee Category Topper</h4>
+              <p>Outstanding score of <strong>80.4%</strong> · Awarded NRS 18,000 by IOE, Pulchowk Campus</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── PROJECTS ── -->
+    <div class="tab-content" id="tab-projects">
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon-wrap"><i class="fa-solid fa-map-location-dot"></i></div>
+            <div class="project-links-top">
+              <a href="#" title="Project Details"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3>TxDOT Crash Dashboard — ArcGIS Pro &amp; Online</h3>
+          <p>Developed interactive traffic crash data analysis dashboards for TxDOT districts including Amarillo, Childress, Abilene, and Lubbock. Enables district-level crash pattern visualization, hotspot identification, and evidence-based safety decision-making.</p>
+          <div class="project-tags"><span>ArcGIS Pro</span><span>ArcGIS Online</span><span>TxDOT</span><span>Crash Analytics</span><span>Python</span></div>
+          <div class="project-period">2025 – Present · TransTech Lab, TTU</div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon-wrap"><i class="fa-solid fa-signal"></i></div>
+            <div class="project-links-top">
+              <a href="#" title="Details"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3>Signal Retiming — City of Fort Worth, Texas</h3>
+          <p>Executed signal retiming designs using Synchro for the City of Fort Worth. Reviewed existing timing plans, collected field data, and developed optimized cycle lengths and green splits to reduce arterial delay and improve intersection performance.</p>
+          <div class="project-tags"><span>Synchro</span><span>Signal Retiming</span><span>Fort Worth</span><span>MUTCD</span><span>HCM</span></div>
+          <div class="project-period">2025 – Present · TransTech Lab, TTU</div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon-wrap"><i class="fa-solid fa-traffic-light"></i></div>
+            <div class="project-links-top">
+              <a href="https://civil.pcampus.edu.np/journal/index.php/njce/article/view/4.1-4/FullText-4.1-4" title="Published Paper" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
+            </div>
+          </div>
+          <h3>Signal Optimization — Gwarko &amp; Satdobato Intersections</h3>
+          <p>Final year capstone project to optimize traffic signals at two critical Kathmandu Valley intersections. Conducted comprehensive traffic counts, demand forecasting, and designed improved phasing and timing plans using SIDRA — resulting in a published journal paper.</p>
+          <div class="project-tags"><span>SIDRA</span><span>Traffic Engineering</span><span>Signal Design</span><span>Published</span></div>
+          <div class="project-period">2022 – 2023 · Final Year Project · IOE, TU</div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon-wrap"><i class="fa-solid fa-building-columns"></i></div>
+          </div>
+          <h3>Vulnerability Assessment &amp; Retrofitting — Tri-Chandra Campus</h3>
+          <p>Served as Consultant Civil Engineer for seismic vulnerability assessment and retrofitting works of Tri-Chandra Campus, Ghantaghar, Kathmandu. Involved structural analysis, technical drawings, BoQ verification, measurement sheets, and full site supervision.</p>
+          <div class="project-tags"><span>ETABS</span><span>AutoCAD</span><span>Vulnerability Assessment</span><span>Retrofitting</span><span>QA/QC</span></div>
+          <div class="project-period">2024 · Digicon Engineering Consult Pvt. Ltd.</div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon-wrap"><i class="fa-solid fa-bridge"></i></div>
+          </div>
+          <h3>Design of Short Span Trail Suspended Bridge (SSTB-D)</h3>
+          <p>Structural design and cable-pulling execution of an SSTB-D type trail suspension bridge over Likhre Khola, Kavre. Involved load calculations, cable geometry design, anchorage design, and construction-level site oversight.</p>
+          <div class="project-tags"><span>Structural Design</span><span>Bridge Engineering</span><span>AutoCAD</span><span>Nepal</span></div>
+          <div class="project-period">2022 – 2023 · Elective Coursework</div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon-wrap"><i class="fa-solid fa-mountain-sun"></i></div>
+          </div>
+          <h3>Topographical, Bridge Site &amp; Road Survey Camp</h3>
+          <p>Led a team of 5 in comprehensive field surveys including bridge site cross-section and longitudinal surveys, road surveying with levelling, and topographic mapping in Kirtipur, Kathmandu. Produced survey-grade maps and technical reports.</p>
+          <div class="project-tags"><span>Surveying</span><span>Topographic Mapping</span><span>Levelling</span><span>Team Lead</span></div>
+          <div class="project-period">2021 · Survey Camp Coursework · IOE, TU</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── RESEARCH EXPERIENCE ── -->
+    <div class="tab-content" id="tab-research-exp">
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker phd"><i class="fa-solid fa-microscope"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-badge phd-badge">PhD Research</span>
+              <span class="timeline-period">2025 – Present</span>
+            </div>
+            <h3>Graduate Research Assistant &amp; Project Lead</h3>
+            <p class="timeline-org">TransTech Lab · Texas Tech University · Lubbock, TX, USA</p>
+            <ul class="timeline-duties">
+              <li>Developed interactive traffic crash data analysis dashboards for TxDOT districts (Amarillo, Childress, Abilene, Lubbock) using ArcGIS Pro and Online</li>
+              <li>Executed signal retiming designs using Synchro for the City of Fort Worth, Texas</li>
+              <li>Cleaned and manipulated large-scale LiDAR datasets for spatial analysis using Python</li>
+              <li>Applied Machine Learning and AI algorithms for traffic engineering and hotspot detection</li>
+              <li>Served as Project Lead for multiple TxDOT-funded initiatives; contributed to grant/proposal writing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker undergrad"><i class="fa-solid fa-vial"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-badge undergrad-badge">Undergraduate Research</span>
+              <span class="timeline-period">2022 – 2023</span>
+            </div>
+            <h3>Undergraduate Researcher</h3>
+            <p class="timeline-org">Tribhuvan University, Institute of Engineering (IOE) · Pulchowk Campus · Lalitpur, Nepal</p>
+            <ul class="timeline-duties">
+              <li>Optimized traffic signals at Gwarko &amp; Satdobato intersections in Kathmandu Valley using SIDRA Intersection to mitigate chronic urban congestion</li>
+              <li>Conducted comprehensive traffic volume counts, turning movement studies, and peak-hour demand forecasting</li>
+              <li>Developed improved signal phasing and timing plans resulting in measurable delay reductions</li>
+              <li>Published findings in the Nepal Journal of Civil Engineering as lead author</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── PROFESSIONAL EXPERIENCE ── -->
+    <div class="tab-content" id="tab-prof-exp">
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker phd"><i class="fa-solid fa-building"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-badge phd-badge">Current</span>
+              <span class="timeline-period">2025 – 2030 (Expected)</span>
+            </div>
+            <h3>Graduate Research Assistant &amp; Project Lead</h3>
+            <p class="timeline-org">TransTech Lab · Texas Tech University · Lubbock, TX, USA</p>
+            <ul class="timeline-duties">
+              <li>Build and maintain interactive crash analysis dashboards for multiple TxDOT districts using ArcGIS Pro &amp; Online</li>
+              <li>Execute signal retiming and optimization projects for Texas municipalities using Synchro</li>
+              <li>Process and analyze large-scale LiDAR point cloud datasets via Python pipelines</li>
+              <li>Apply ML/AI for traffic safety hotspot identification and risk prediction</li>
+              <li>Lead TxDOT-sponsored research and contribute to grant proposals and technical reports</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker industry"><i class="fa-solid fa-hard-hat"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-badge industry-badge">Industry</span>
+              <span class="timeline-period">2024 – 2025</span>
+            </div>
+            <h3>Civil Engineer</h3>
+            <p class="timeline-org">Digicon Engineering Consult Pvt. Ltd. · Kathmandu, Nepal</p>
+            <ul class="timeline-duties">
+              <li>Prepared technical drafting, cost estimation, and valuation for infrastructure projects (AutoCAD, MS Office)</li>
+              <li>Performed site supervision and QA/QC for contractor payment verification — IPC preparation &amp; BoQ verification</li>
+              <li>Consultant Civil Engineer: Vulnerability Assessment &amp; Retrofitting of Tri-Chandra Campus, Ghantaghar</li>
+              <li>Consultant Civil Engineer: Vulnerability Assessment &amp; Retrofitting of Bal Mandir, Naxal, Kathmandu</li>
+              <li>Conducted engineering surveying and provided site-specific structural design support</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker masters"><i class="fa-solid fa-people-group"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-badge ta-badge">Leadership</span>
+              <span class="timeline-period">2022 · Nepal</span>
+            </div>
+            <h3>Program Coordinator</h3>
+            <p class="timeline-org">Inter-college BE Model Competition · ADHAAR-2079</p>
+            <ul class="timeline-duties">
+              <li>Co-coordinated the Inter-college Civil Engineering BE Model Competition under ADHAAR-2079</li>
+              <li>Managed logistics, judging criteria, participant coordination, and event-day operations</li>
+              <li>Volunteered at the 10th National Civil Engineering Exhibition cum Competition (CESS Exhibition)</li>
+              <li>Active Leader &amp; Volunteer — Rotaract Club of Dillibazar, Nepal</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── SKILLS ── -->
+    <div class="tab-content" id="tab-skills">
+      <div class="skills-section">
+
+        <div class="skills-category reveal">
+          <h3 class="skills-cat-title"><i class="fa-solid fa-car-burst"></i> Traffic Modeling, Simulation &amp; Operations</h3>
+          <div class="skills-chips">
+            <span class="skill-chip expert">SIDRA Intersection</span>
+            <span class="skill-chip expert">Synchro</span>
+            <span class="skill-chip advanced">VISSIM</span>
+            <span class="skill-chip advanced">TransCAD</span>
+            <span class="skill-chip intermediate">HCM Analysis</span>
+          </div>
+        </div>
+
+        <div class="skills-category reveal">
+          <h3 class="skills-cat-title"><i class="fa-solid fa-globe"></i> GIS &amp; Geospatial Analysis</h3>
+          <div class="skills-chips">
+            <span class="skill-chip expert">ArcGIS Pro</span>
+            <span class="skill-chip expert">ArcGIS Online</span>
+            <span class="skill-chip advanced">OpenRoads Designer</span>
+            <span class="skill-chip intermediate">LiDAR Processing</span>
+          </div>
+        </div>
+
+        <div class="skills-category reveal">
+          <h3 class="skills-cat-title"><i class="fa-solid fa-drafting-compass"></i> Design &amp; Engineering Software</h3>
+          <div class="skills-chips">
+            <span class="skill-chip expert">AutoCAD 2D</span>
+            <span class="skill-chip advanced">Civil 3D</span>
+            <span class="skill-chip advanced">ETABS</span>
+            <span class="skill-chip advanced">SAFE</span>
+            <span class="skill-chip advanced">SketchUp</span>
+            <span class="skill-chip intermediate">IDEA StatiCa</span>
+          </div>
+        </div>
+
+        <div class="skills-category reveal">
+          <h3 class="skills-cat-title"><i class="fa-brands fa-python"></i> Programming &amp; Data Science</h3>
+          <div class="skills-chips">
+            <span class="skill-chip expert">Python</span>
+            <span class="skill-chip advanced">R Programming</span>
+            <span class="skill-chip advanced">Machine Learning / AI</span>
+            <span class="skill-chip intermediate">C Programming</span>
+            <span class="skill-chip intermediate">LaTeX</span>
+          </div>
+        </div>
+
+        <div class="skills-category reveal">
+          <h3 class="skills-cat-title"><i class="fa-solid fa-book-open-reader"></i> Regulatory Standards &amp; Codes</h3>
+          <div class="skills-chips">
+            <span class="skill-chip expert">MUTCD Guidelines</span>
+            <span class="skill-chip expert">Highway Capacity Manual (HCM)</span>
+            <span class="skill-chip advanced">Highway Safety Manual (HSM)</span>
+            <span class="skill-chip advanced">ITS Standards</span>
+            <span class="skill-chip advanced">AASHTO Green Book</span>
+          </div>
+        </div>
+
+        <div class="skills-category reveal">
+          <h3 class="skills-cat-title"><i class="fa-solid fa-briefcase"></i> Professional Civil Engineering Skills</h3>
+          <div class="skills-chips">
+            <span class="skill-chip expert">Estimation &amp; Valuation</span>
+            <span class="skill-chip expert">Technical Drawing &amp; Drafting</span>
+            <span class="skill-chip expert">Microsoft Office Suite</span>
+            <span class="skill-chip advanced">Vulnerability Assessment</span>
+            <span class="skill-chip advanced">Retrofitting Techniques</span>
+            <span class="skill-chip advanced">Engineering Surveying</span>
+            <span class="skill-chip advanced">QA/QC &amp; Site Supervision</span>
+            <span class="skill-chip advanced">BoQ &amp; IPC Preparation</span>
+            <span class="skill-chip intermediate">Construction Safety Management</span>
+          </div>
+        </div>
+
+        <div class="skills-category reveal">
+          <h3 class="skills-cat-title"><i class="fa-solid fa-comments"></i> Languages</h3>
+          <div class="skills-chips">
+            <span class="skill-chip expert">English</span>
+            <span class="skill-chip expert">Nepali</span>
+            <span class="skill-chip advanced">Hindi</span>
+          </div>
+        </div>
+
+        <div class="skills-legend reveal">
+          <span><span class="legend-dot expert"></span> Expert / Proficient</span>
+          <span><span class="legend-dot advanced"></span> Advanced</span>
+          <span><span class="legend-dot intermediate"></span> Intermediate</span>
+          <span><span class="legend-dot beginner"></span> Beginner</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── EDUCATION ── -->
+    <div class="tab-content" id="tab-education">
+      <div class="education-timeline">
+
+        <div class="edu-card reveal current-edu">
+          <div class="edu-card-side">
+            <div class="edu-icon-wrap phd-color"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card-body">
+            <div class="edu-status-badge">Current</div>
+            <h3>MS &amp; PhD in Civil Engineering</h3>
+            <p class="edu-field">Transportation Systems Engineering</p>
+            <p class="edu-school"><i class="fa-solid fa-university"></i> Texas Tech University · Lubbock, TX, USA</p>
+            <p class="edu-period"><i class="fa-solid fa-calendar"></i> 2025 – 2030 (Expected)</p>
+            <div class="edu-details">
+              <p><strong>GPA:</strong> 3.96 / 4.00</p>
+              <p><strong>Certification:</strong> Graduate GIS Certification</p>
+              <p><strong>Relevant Coursework:</strong> Highway Geometric Design, Advanced Traffic Analysis: Capacity &amp; Safety, Traffic Flow Theory, Statistics &amp; Probability, GIS, Machine Learning, LiDAR</p>
+              <p><strong>Lab:</strong> TransTech Lab — Graduate Research Assistant &amp; Project Lead</p>
+            </div>
+            <div class="edu-achievements">
+              <span><i class="fa-solid fa-flask"></i> Graduate Research Assistant</span>
+              <span><i class="fa-solid fa-award"></i> Graduate GIS Certification</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card-side">
+            <div class="edu-icon-wrap undergrad-color"><i class="fa-solid fa-book"></i></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card-body">
+            <h3>Bachelor of Civil Engineering (BE)</h3>
+            <p class="edu-field">Civil Engineering</p>
+            <p class="edu-school"><i class="fa-solid fa-university"></i> Tribhuvan University, IOE — Pulchowk Campus · Lalitpur, Nepal</p>
+            <p class="edu-period"><i class="fa-solid fa-calendar"></i> 2018 – 2023</p>
+            <div class="edu-details">
+              <p><strong>Academic Standing:</strong> 74.83% (Aggregate)</p>
+              <p><strong>Electives:</strong> Trail Suspension Bridge Design, Design of RC Bridges, Construction Safety Management</p>
+              <p><strong>Capstone:</strong> Signal Optimization at Satdobato &amp; Gwarko Intersections → Published in Nepal Journal of Civil Engineering</p>
+              <p><strong>Entrance Rank:</strong> 279th out of 16,000+ candidates (National Entrance)</p>
+            </div>
+            <div class="edu-achievements">
+              <span><i class="fa-solid fa-medal"></i> 4-Year Merit Scholarship</span>
+              <span><i class="fa-solid fa-trophy"></i> 3× Semester Topper (1st, 2nd &amp; 4th)</span>
+              <span><i class="fa-solid fa-star"></i> 89.78% — 1st Sem. Both Category Topper</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card-side">
+            <div class="edu-icon-wrap masters-color"><i class="fa-solid fa-school"></i></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card-body">
+            <h3>Higher Secondary (10+2)</h3>
+            <p class="edu-field">Science Stream</p>
+            <p class="edu-school"><i class="fa-solid fa-university"></i> SOS Hermann Gmeiner Secondary School, Sanothimi · Bhaktapur, Nepal</p>
+            <p class="edu-period"><i class="fa-solid fa-calendar"></i> 2016 – 2018</p>
+            <div class="edu-details">
+              <p><strong>CGPA:</strong> 3.66 / 4.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card-side">
+            <div class="edu-icon-wrap" style="border-color:#6b7280;color:#9ca3af;background:rgba(107,114,128,0.1);">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+          </div>
+          <div class="edu-card-body">
+            <h3>School Leaving Certificate (SLC)</h3>
+            <p class="edu-field">General Education</p>
+            <p class="edu-school"><i class="fa-solid fa-university"></i> Grammar Public Higher Secondary School, Koteshwor · Kathmandu, Nepal</p>
+            <p class="edu-period"><i class="fa-solid fa-calendar"></i> 2016</p>
+            <div class="edu-details">
+              <p><strong>GPA:</strong> 3.80 / 4.00</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── LICENSES & CERTIFICATIONS ── -->
+    <div class="tab-content" id="tab-certifications">
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap" style="background:rgba(59,130,246,0.12);color:#3b82f6;border-color:rgba(59,130,246,0.25);">
+            <i class="fa-solid fa-id-card"></i>
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Texas Board of Professional Engineers · USA</span>
+            <h3>Professional Engineer (PE) — Transportation</h3>
+            <p class="cert-date">Licensed Professional Engineer · State of Texas</p>
+            <p class="cert-id">Specialization: Transportation Engineering</p>
+          </div>
+          <a href="#" class="cert-verify-btn"><i class="fa-solid fa-badge-check"></i> Verify</a>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap" style="background:rgba(16,185,129,0.12);color:#10b981;border-color:rgba(16,185,129,0.25);">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">NCEES · USA</span>
+            <h3>Fundamentals of Engineering (FE) — Civil</h3>
+            <p class="cert-date">National Council of Examiners for Engineering and Surveying</p>
+            <p class="cert-id">Discipline: Civil Engineering</p>
+          </div>
+          <a href="#" class="cert-verify-btn"><i class="fa-solid fa-badge-check"></i> Verify</a>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap" style="background:rgba(239,68,68,0.12);color:#ef4444;border-color:rgba(239,68,68,0.25);">
+            <i class="fa-solid fa-stamp"></i>
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Nepal Engineering Council (NEC) · Nepal</span>
+            <h3>General Registered Engineer (GRE)</h3>
+            <p class="cert-date">Registered Professional Engineer · Nepal</p>
+            <p class="cert-id">Nepal Engineering Council Registration</p>
+          </div>
+          <a href="#" class="cert-verify-btn"><i class="fa-solid fa-badge-check"></i> Verify</a>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap" style="background:rgba(201,168,76,0.12);color:#c9a84c;border-color:rgba(201,168,76,0.25);">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Texas Tech University · Lubbock, TX</span>
+            <h3>Graduate GIS Certification</h3>
+            <p class="cert-date">Earned during MS/PhD Program · 2025–Present</p>
+            <p class="cert-id">Geospatial Information Systems — Graduate Level</p>
+          </div>
+          <a href="#" class="cert-verify-btn"><i class="fa-solid fa-badge-check"></i> Verify</a>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap" style="background:rgba(167,139,250,0.12);color:#a78bfa;border-color:rgba(167,139,250,0.25);">
+            <i class="fa-solid fa-users-gear"></i>
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Institute of Transportation Engineers · USA</span>
+            <h3>ITE Student Chapter Member</h3>
+            <p class="cert-date">Active Professional Membership · 2025–Present</p>
+            <p class="cert-id">Institute of Transportation Engineers (ITE)</p>
+          </div>
+          <a href="#" class="cert-verify-btn"><i class="fa-solid fa-badge-check"></i> View</a>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap" style="background:rgba(45,212,191,0.1);color:#2dd4bf;border-color:rgba(45,212,191,0.2);">
+            <i class="fa-solid fa-language"></i>
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">ETS · USA</span>
+            <h3>TOEFL iBT — Total Score: 101</h3>
+            <p class="cert-date">Reading: 27 · Listening: 29 · Speaking: 24 · Writing: 21</p>
+            <p class="cert-id">Test of English as a Foreign Language</p>
+          </div>
+          <a href="#" class="cert-verify-btn"><i class="fa-solid fa-badge-check"></i> Verify</a>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon-wrap" style="background:rgba(251,146,60,0.12);color:#fb923c;border-color:rgba(251,146,60,0.25);">
+            <i class="fa-solid fa-pen-nib"></i>
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">ETS · USA</span>
+            <h3>GRE General Test — Total Score: 313</h3>
+            <p class="cert-date">Quant: 160 · Verbal: 153 · AWA: 3.0</p>
+            <p class="cert-id">Graduate Record Examinations</p>
+          </div>
+          <a href="#" class="cert-verify-btn"><i class="fa-solid fa-badge-check"></i> Verify</a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ═══════════ CONTACT / FOOTER ═══════════ -->
+  <footer class="contact-footer" id="contact">
+    <div class="footer-bg-grid"></div>
+    <div class="footer-orb"></div>
+
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="section-label light">
+          <span class="label-number">03</span>
+          <span class="label-text">Contact</span>
+        </div>
+        <h2 class="footer-heading">Let's <em>Connect</em> &amp;<br/>Collaborate</h2>
+        <p class="footer-tagline">Whether you're interested in transportation research collaboration, consulting, academic partnerships, or simply want to connect — my inbox is always open.</p>
+
+        <div class="contact-items">
+          <a href="mailto:rupakkhadka03@gmail.com" class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">rupakkhadka03@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+18065597554" class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <span class="contact-label">Phone (USA)</span>
+              <span class="contact-value">(+1) 806-559-7554</span>
+            </div>
+          </a>
+          <a href="#" class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Lubbock, TX, USA</span>
+            </div>
+          </a>
+          <a href="#" class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <div>
+              <span class="contact-label">Affiliation</span>
+              <span class="contact-value">Texas Tech University — TransTech Lab</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/rupak-khadka" class="footer-social-icon" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="footer-social-icon" title="GitHub"         target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="footer-social-icon" title="Google Scholar" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+          <a href="#" class="footer-social-icon" title="Facebook"       target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="footer-social-icon" title="Instagram"      target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="footer-social-icon" title="X / Twitter"    target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <h3>Send a Message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Research Collaboration / Consulting" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project, research idea, or question..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Send Message</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 <strong>Rupak Khadka</strong>. All rights reserved.</p>
+      <p class="footer-built">Designed &amp; Built with <i class="fa-solid fa-heart"></i> and precision</p>
+    </div>
+  </footer>
+
+  <script>
+    // ── Custom Cursor ──
+    const dot = document.getElementById('cursorDot');
+    const ring = document.getElementById('cursorRing');
+    let mouseX = 0, mouseY = 0, ringX = 0, ringY = 0;
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX; mouseY = e.clientY;
+      dot.style.left = mouseX + 'px'; dot.style.top = mouseY + 'px';
+    });
+    (function animateRing() {
+      ringX += (mouseX - ringX) * 0.12; ringY += (mouseY - ringY) * 0.12;
+      ring.style.left = ringX + 'px'; ring.style.top = ringY + 'px';
+      requestAnimationFrame(animateRing);
+    })();
+    document.querySelectorAll('a, button').forEach(el => {
+      el.addEventListener('mouseenter', () => { dot.classList.add('hovered'); ring.classList.add('hovered'); });
+      el.addEventListener('mouseleave', () => { dot.classList.remove('hovered'); ring.classList.remove('hovered'); });
+    });
+
+    // ── Navbar scroll ──
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+      updateActiveLink();
+    });
+
+    // ── Mobile nav toggle ──
+    const navToggle = document.getElementById('navToggle');
+    const navLinksEl = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinksEl.classList.toggle('open');
+      navToggle.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => { navLinksEl.classList.remove('open'); navToggle.classList.remove('open'); });
+    });
+
+    // ── Active nav on scroll ──
+    function updateActiveLink() {
+      let current = 'home';
+      ['home','about','portfolio','contact'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el && window.scrollY >= el.offsetTop - 120) current = id;
+      });
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.toggle('active', l.dataset.section === current));
+    }
+
+    // ── Tabs ──
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const t = btn.dataset.tab;
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + t).classList.add('active');
+        document.querySelectorAll('#tab-' + t + ' .reveal:not(.revealed)').forEach(el => {
+          setTimeout(() => el.classList.add('revealed'), 80);
+        });
+      });
+    });
+
+    // ── Scroll reveal ──
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); observer.unobserve(e.target); } });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // ── Form ──
+    function handleSubmit(e) {
+      e.preventDefault();
+      const note = document.getElementById('formNote');
+      note.textContent = '✓ Message sent! Rupak will get back to you soon.';
+      note.style.color = '#c9a84c';
+      e.target.reset();
+      setTimeout(() => note.textContent = '', 5000);
+    }
+
+    // ── Smooth scroll ──
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', function(e) {
+        const t = document.querySelector(this.getAttribute('href'));
+        if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      });
+    });
+  </script>
+</body>
+</html>
