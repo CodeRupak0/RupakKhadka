@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rupak-khadka.com.np/sitemap.xml
